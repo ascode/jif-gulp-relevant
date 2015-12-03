@@ -8,7 +8,7 @@ This is open for gulp study.It is a good usefull guide for gulp use.
 ## 文件说明
 gulpfile.js：为gulp的默认配置文件  
 webpack.config.js：为webpack的默认配置文件  
-<span style="color:red;">**另外代码里面会有一定的注释。**</span>
+<span style="color:#f00;">另外代码里面会有一定的注释。</span>
 
 ## 项目运行说明
 1. pull（拉）了项目之后，先运行`sudo npm install`安装依赖的组件  
