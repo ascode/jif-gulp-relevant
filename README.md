@@ -22,4 +22,4 @@ webpack.config.js：为webpack的默认配置文件
 
 
 ## Relevant Helps
-#### <a href="http://www.appinn.com/markdown/">关于markdown</a>
+#### <a href="http://www.appinn.com/markdown/">Markdown 语法说明 (简体中文版)</a>
