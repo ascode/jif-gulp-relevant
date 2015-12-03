@@ -32,11 +32,13 @@ webpack官方说明就是：module bundler。简单来说就是模块合并工�
 
 browserify还是需要手动指定entries,如果有几百个页面或者更多，那么这种手动指定会非常的麻烦，管理起来非常复杂。Webpack就是为解决这个问题而生的。他创作的目标就是解决大型单页应用的模块化以及合并。
 
-Webpack和browserify的主要区别有两点：1.Webpack包含了所有的静态资源，browserify没有包含图片这样的资源；2.Webpack自动生成所有的entry point，而browserify需要手动指定entry point
+Webpack和browserify的主要区别有两点：  
+1.Webpack包含了所有的静态资源，browserify没有包含图片这样的资源；  
+2.Webpack自动生成所有的entry point，而browserify需要手动指定entry point
 
-Webpack的两大特色：code splitting和loader
-webpack中code splitting就是代码分割，也就是对应browserify中的entry point，但是webpack中code splitting是自动完成，执行的时候，自动按照页面对应的生成js文件，这也就是他支持大型单页应用的特性，更多的工作自动完成，而不需要手动操作太多，这也是他和browserify的明显区别。
-loader就是处理各种静态文件，并且支持串联操作。
+Webpack的两大特色：code splitting和loader  
+1.webpack中code splitting就是代码分割，也就是对应browserify中的entry point，但是webpack中code splitting是自动完成，执行的时候，自动按照页面对应的生成js文件，这也就是他支持大型单页应用的特性，更多的工作自动完成，而不需要手动操作太多，这也是他和browserify的明显区别。  
+2.loader就是处理各种静态文件，并且支持串联操作。
 
 jsx-loader与webpack的关系就好比browserify与reactify，因为webpack本身不能处理jsx，我们必须使用jsx-loder，loader就是处理静态文件专用的东西
 
