@@ -31,6 +31,8 @@ browserify还是需要手动指定entries,如果有几百个页面或者更多�
 Webpack和browserify的主要区别有两点：1.Webpack包含了所有的静态资源，browserify没有包含图片这样的资源；2.Webpack自动生成所有的entry point，而browserify需要手动指定entry point
 
 Webpack的两大特色：code splitting和loader
+webpack中code splitting就是代码分割，也就是对应browserify中的entry point，但是webpack中code splitting是自动完成，执行的时候，自动按照页面对应的生成js文件，这也就是他支持大型单页应用的特性，更多的工作自动完成，而不需要手动操作太多，这也是他和browserify的明显区别。
+loader就是处理各种静态文件，并且支持串联操作。
 
 jsx-loader与webpack的关系就好比browserify与reactify，因为webpack本身不能处理jsx，我们必须使用jsx-loder，loader就是处理静态文件专用的东西
 
