@@ -1,6 +1,10 @@
 # gulp-relevant
 This is open for gulp study.It is a good usefull guide for gulp use.
 
+
+## 为什么要用gulp
+这个项目示例是提供想要学习gulp和相关工具插件的人阅读。本说明不解释为什么要使用gulp这个问题。如果读者觉得需要探讨，可以联系我。
+
 ## 文件说明
 gulpfile.js：为gulp的默认配置文件  
 webpack.config.js：为webpack的默认配置文件
